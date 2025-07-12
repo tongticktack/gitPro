@@ -2,10 +2,10 @@
 *.log
 !important.log
 # .txt 파일은 무시 하지마!
-!*.txt
 [abc].txt
 [a-z].txt
 [0-9].txt
 a/**/b.txt
+!*.txt
 # 현재 디렉토리의 파일만 특정
 /b.txt
